@@ -1,0 +1,2 @@
+# currency
+valuta fra nationalbanken
