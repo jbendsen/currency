@@ -38,8 +38,7 @@
 						</goals>
 						<configuration>
 							<sources>
-								<source>generated/src/java</source>
-								
+								<source>generated/src/java</source>								
 							</sources>
 						</configuration>
 					</execution>

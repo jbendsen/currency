@@ -41,7 +41,7 @@ public class CurrencyService {
 				XMLGregorianCalendar xmlDate = c.getTime();
 				LocalDate d = LocalDate.of(xmlDate.getYear(), xmlDate.getMonth(), xmlDate.getDay());
 				DailyRates dailyRates = new DailyRates(d);
-				list.getRates().add(dailyRates);
+				list.getDates().add(dailyRates);
 				List<CurrencyCube> cubes2 = c.getCube();
 				for (CurrencyCube c2 : cubes2) {
 					dailyRates.getRates().put(c2.getCurrency(), (double)((int)(c2.getRate()*100)/100.0));

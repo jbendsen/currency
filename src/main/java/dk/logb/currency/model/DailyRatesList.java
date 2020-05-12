@@ -4,14 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DailyRatesList {
-	private List<DailyRates> rates = new ArrayList();
+	private List<DailyRates> dates = new ArrayList();
 
-	public List<DailyRates> getRates() {
-		return rates;
+	public List<DailyRates> getDates() {
+		return dates;
 	}
 
-	public void setRates(List<DailyRates> rates) {
-		this.rates = rates;
+	public void setDates(List<DailyRates> rates) {
+		this.dates = rates;
 	}
 
 	public DailyRatesList() {
@@ -20,7 +20,7 @@ public class DailyRatesList {
 
 	@Override
 	public String toString() {
-		return "DailyRatesList [rates=" + rates + "]";
+		return "DailyRatesList [rates=" + dates + "]";
 	}
 
 }
